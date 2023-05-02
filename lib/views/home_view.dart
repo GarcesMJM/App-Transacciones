@@ -12,16 +12,19 @@ class HomeView extends StatelessWidget{
   @override
   Widget build(BuildContext context){
     return Scaffold(
-      backgroundColor: Colors.deepPurple,
+      backgroundColor: const Color.fromRGBO(66, 53, 115, 45),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
            Row(
             children: const [
+              SizedBox(
+                 width: 50
+                 ),
               Text('Hola, "Nombre"',
             textAlign: TextAlign.left,
             style: TextStyle(
-              color: Colors.black, 
+              color: Color.fromRGBO(198, 186, 244, 96), 
               fontSize: 25,
               fontWeight: FontWeight.bold
             ),
@@ -35,7 +38,7 @@ class HomeView extends StatelessWidget{
                 context, MaterialPageRoute(builder: (_) => const TransferirView()));
             }, 
             style: ElevatedButton.styleFrom(
-              backgroundColor: Colors.grey,
+              backgroundColor: const Color.fromRGBO(198, 186, 244, 96),
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(50)
               )
@@ -44,7 +47,7 @@ class HomeView extends StatelessWidget{
               'TRANSFERIR',
               textAlign: TextAlign.center,
                 style: TextStyle(
-                  color: Colors.black,
+                  color: Color.fromRGBO(66, 53, 115, 45),
                   fontSize: 15,
                   fontWeight: FontWeight.bold
                 )
@@ -58,7 +61,7 @@ class HomeView extends StatelessWidget{
                       context, MaterialPageRoute(builder: (_) => const RetirarView()));
               },
               style: ElevatedButton.styleFrom(
-              backgroundColor: Colors.grey,
+              backgroundColor: const Color.fromRGBO(198, 186, 244, 96),
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(50)
               )
@@ -67,7 +70,7 @@ class HomeView extends StatelessWidget{
                 'RETIRAR',
                 textAlign: TextAlign.center,
                 style: TextStyle(
-                  color: Colors.black,
+                  color: Color.fromRGBO(66, 53, 115, 45),
                   fontSize: 15,
                   fontWeight: FontWeight.bold
 
@@ -82,7 +85,7 @@ class HomeView extends StatelessWidget{
                               context, MaterialPageRoute(builder: (_) => const ConsultarbView()));
                   },
                   style: ElevatedButton.styleFrom(
-              backgroundColor: Colors.grey,
+              backgroundColor: const Color.fromRGBO(198, 186, 244, 96),
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(50)
               )
@@ -91,7 +94,7 @@ class HomeView extends StatelessWidget{
                 'CONSULTAR BIENES',
                 textAlign: TextAlign.center,
                 style: TextStyle(
-                  color: Colors.black,
+                  color: Color.fromRGBO(66, 53, 115, 45),
                   fontSize: 15,
                   fontWeight: FontWeight.bold
 
@@ -103,13 +106,16 @@ class HomeView extends StatelessWidget{
             ),
             Row(
             children: [
+              const SizedBox(
+                width: 30,
+              ),
               ElevatedButton(
                           onPressed: (){
                             Navigator.push(
                               context, MaterialPageRoute(builder: (_) => const LoginView()));
                           },
                           style: ElevatedButton.styleFrom(
-                              backgroundColor: Colors.grey,
+                              backgroundColor: const Color.fromRGBO(198, 186, 244, 96),
                               shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(50)
                               )
@@ -118,7 +124,7 @@ class HomeView extends StatelessWidget{
                             "<",
                             textAlign: TextAlign.center,
                             style: TextStyle(
-                              color: Colors.black,
+                              color: Color.fromRGBO(66, 53, 115, 45),
                               fontSize: 15,
                               fontWeight: FontWeight.bold
                             ),

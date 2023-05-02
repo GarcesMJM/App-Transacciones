@@ -11,7 +11,7 @@ class LoginView extends StatelessWidget{
   Widget build(BuildContext context) {
     
     return Scaffold(
-      backgroundColor: const Color.fromRGBO(176,240,255,100),
+      backgroundColor: const Color.fromRGBO(198,171,225,88),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [
@@ -20,7 +20,7 @@ class LoginView extends StatelessWidget{
               'Usuario',
               textAlign: TextAlign.left,
               style: TextStyle(
-                color: Colors.black,
+                color: Color.fromRGBO(45, 24, 123, 48),
                 fontSize: 20,
                 fontWeight: FontWeight.bold
               ),
@@ -40,7 +40,7 @@ class LoginView extends StatelessWidget{
                 'Contraseña',
               textAlign: TextAlign.left,
               style: TextStyle(
-                 color: Colors.black,
+                 color: Color.fromRGBO(45, 24, 123, 48),
                 fontSize: 20,
                 fontWeight: FontWeight.bold
               ),
@@ -62,7 +62,7 @@ class LoginView extends StatelessWidget{
                 context, MaterialPageRoute(builder: (_) => const HomeView()));
             },
             style: ElevatedButton.styleFrom(
-              backgroundColor: Colors.pink[100],
+              backgroundColor: Color.fromRGBO(45, 24, 123, 48),
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(50)
               )
@@ -70,7 +70,8 @@ class LoginView extends StatelessWidget{
              child: const Text(
               'Iniciar sesión',
               style: TextStyle(
-                color: Colors.black
+                color: Color.fromRGBO(198, 186, 244, 96),
+                fontWeight: FontWeight.bold
               ),)),
 
         ],

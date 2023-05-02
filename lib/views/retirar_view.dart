@@ -21,13 +21,12 @@ class RetirarView extends StatelessWidget {
               textAlign: TextAlign.center,
               style: TextStyle(
                 color: Colors.black,
-                fontSize: 20,
+                fontSize: 15,
                 fontWeight: FontWeight.bold
               ),
             ),
           ),
           SizedBox(
-            height: 100,
             width: 200,
             child: TextFormField(
               decoration: const InputDecoration(),
@@ -49,7 +48,7 @@ class RetirarView extends StatelessWidget {
               "ACEPTAR",
               style: TextStyle(
                 color: Colors.black,
-                fontSize: 20,
+                fontSize: 15,
                 fontWeight: FontWeight.bold
 
               ),
@@ -57,6 +56,9 @@ class RetirarView extends StatelessWidget {
           ),
           Row(
             children: [
+              const SizedBox(
+                width: 30,
+              ),
               ElevatedButton(
                           onPressed: (){
                             Navigator.push(

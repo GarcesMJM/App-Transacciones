@@ -19,7 +19,7 @@ class TransferirView extends StatelessWidget{
               textAlign: TextAlign.left,
               style: TextStyle(
                 color: Colors.black,
-                fontSize: 20,
+                fontSize: 15,
                 fontWeight: FontWeight.bold
               ),
             ),
@@ -29,7 +29,7 @@ class TransferirView extends StatelessWidget{
             child: TextFormField(
               decoration: const InputDecoration(),
               style: const TextStyle(
-                color: Colors.amber
+                color: Colors.black
               )
             ),
           ),
@@ -39,7 +39,7 @@ class TransferirView extends StatelessWidget{
               textAlign: TextAlign.left,
               style: TextStyle(
                 color: Colors.black,
-                fontSize: 20,
+                fontSize: 15,
                 fontWeight: FontWeight.bold
               ),
             ),
@@ -49,7 +49,7 @@ class TransferirView extends StatelessWidget{
             child: TextFormField(
               decoration: const InputDecoration(),
               style: const TextStyle(
-                color: Colors.amber
+                color: Colors.black
               ),
             ),
           ),
@@ -67,13 +67,16 @@ class TransferirView extends StatelessWidget{
               'ACEPTAR',
               style: TextStyle(
                 color: Colors.black,
-                fontSize: 20,
+                fontSize: 15,
                 fontWeight: FontWeight.bold
               ),
             ),
           ),
           Row(
             children: [
+              const SizedBox(
+                width: 30,
+              ),
               ElevatedButton(
                 onPressed: () {
                   Navigator.push(

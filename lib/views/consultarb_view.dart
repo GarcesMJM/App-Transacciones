@@ -12,6 +12,7 @@ class ConsultarbView extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.white,
       body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
           const Text(
                 "PROPIEDADES", 
@@ -23,150 +24,188 @@ class ConsultarbView extends StatelessWidget {
                 ),
               ),
           const SizedBox(
-            height: 70,
+            height: 80,
           ),
-          Row(
-            children: const[
-              Text(
-                "Propiedad #", 
-                textAlign: TextAlign.left,
-                style: TextStyle(
-                  color: Colors.black,
-                  fontSize: 15,
-                  fontWeight: FontWeight.bold
-                ),
+          Container(
+            height: 70,
+            color: Colors.grey,
+            child: Row(
+                children: const[
+                  SizedBox(
+                    width: 20,
+                  ),
+                  Text(
+                    "Propiedad #", 
+                    textAlign: TextAlign.left,
+                    style: TextStyle(
+                      color: Colors.black,
+                      fontSize: 15,
+                      fontWeight: FontWeight.bold
+                    ),
+                  ),
+                  SizedBox(
+                    width: 200,
+                  ),
+                  Text(
+                    "Valor", 
+                    textAlign: TextAlign.right,
+                    style: TextStyle(
+                      color: Colors.black,
+                      fontSize: 15,
+                      fontWeight: FontWeight.bold
+                    ),
+                  )
+                ],
               ),
-              SizedBox(
-                width: 200,
-              ),
-              Text(
-                "Valor", 
-                textAlign: TextAlign.right,
-                style: TextStyle(
-                  color: Colors.black,
-                  fontSize: 15,
-                  fontWeight: FontWeight.bold
-                ),
-              )
-            ],
           ),
           const SizedBox(
-            height: 70,
+            height: 20,
           ),
-          Row(
-            children: const[
-              Text(
-                "Propiedad #", 
-                textAlign: TextAlign.left,
-                style: TextStyle(
-                  color: Colors.black,
-                  fontSize: 15,
-                  fontWeight: FontWeight.bold
+          Container(
+            height: 70,
+            color: Colors.grey,
+            child: Row(
+              children: const[
+                SizedBox(
+                  width: 20,
                 ),
-              ),
-              SizedBox(
-                width: 200,
-              ),
-              Text(
-                "Valor", 
-                textAlign: TextAlign.right,
-                style: TextStyle(
-                  color: Colors.black,
-                  fontSize: 15,
-                  fontWeight: FontWeight.bold
+                Text(
+                  "Propiedad #", 
+                  textAlign: TextAlign.left,
+                  style: TextStyle(
+                    color: Colors.black,
+                    fontSize: 15,
+                    fontWeight: FontWeight.bold
+                  ),
                 ),
-              )
-            ],
+                SizedBox(
+                  width: 200,
+                ),
+                Text(
+                  "Valor", 
+                  textAlign: TextAlign.right,
+                  style: TextStyle(
+                    color: Colors.black,
+                    fontSize: 15,
+                    fontWeight: FontWeight.bold
+                  ),
+                )
+              ],
+            ),
           ),
           const SizedBox(
-            height: 70,
+            height: 20,
           ),
-          Row(
-            children: const[
-              Text(
-                "Propiedad #", 
-                textAlign: TextAlign.left,
-                style: TextStyle(
-                  color: Colors.black,
-                  fontSize: 15,
-                  fontWeight: FontWeight.bold
+          Container(
+            height: 70,
+            color: Colors.grey,
+            child: Row(
+              children: const[
+                SizedBox(
+                  width: 20,
                 ),
-              ),
-              SizedBox(
-                width: 200,
-              ),
-              Text(
-                "Valor", 
-                textAlign: TextAlign.right,
-                style: TextStyle(
-                  color: Colors.black,
-                  fontSize: 15,
-                  fontWeight: FontWeight.bold
+                Text(
+                  "Propiedad #", 
+                  textAlign: TextAlign.left,
+                  style: TextStyle(
+                    color: Colors.black,
+                    fontSize: 15,
+                    fontWeight: FontWeight.bold
+                  ),
                 ),
-              )
-            ],
+                SizedBox(
+                  width: 200,
+                ),
+                Text(
+                  "Valor", 
+                  textAlign: TextAlign.right,
+                  style: TextStyle(
+                    color: Colors.black,
+                    fontSize: 15,
+                    fontWeight: FontWeight.bold
+                  ),
+                )
+              ],
+            ),
           ), 
           const SizedBox(
-            height: 70,
+            height: 20,
           ),
-          Row(
-            children: const[
-              Text(
-                "Propiedad #", 
-                textAlign: TextAlign.left,
-                style: TextStyle(
-                  color: Colors.black,
-                  fontSize: 15,
-                  fontWeight: FontWeight.bold
+          Container(
+            height: 70,
+            color: Colors.grey,
+            child: Row(
+              children: const[
+                SizedBox(
+                  width: 20,
                 ),
-              ),
-              SizedBox(
-                width: 200,
-              ),
-              Text(
-                "Valor", 
-                textAlign: TextAlign.right,
-                style: TextStyle(
-                  color: Colors.black,
-                  fontSize: 15,
-                  fontWeight: FontWeight.bold
+                Text(
+                  "Propiedad #", 
+                  textAlign: TextAlign.left,
+                  style: TextStyle(
+                    color: Colors.black,
+                    fontSize: 15,
+                    fontWeight: FontWeight.bold
+                  ),
                 ),
-              )
-            ],
+                SizedBox(
+                  width: 200,
+                ),
+                Text(
+                  "Valor", 
+                  textAlign: TextAlign.right,
+                  style: TextStyle(
+                    color: Colors.black,
+                    fontSize: 15,
+                    fontWeight: FontWeight.bold
+                  ),
+                )
+              ],
+            ),
           ),
           const SizedBox(
-            height: 70,
+            height: 20,
           ),
-          Row(
-            children: const[
-              Text(
-                "Propiedad #", 
-                textAlign: TextAlign.left,
-                style: TextStyle(
-                  color: Colors.black,
-                  fontSize: 15,
-                  fontWeight: FontWeight.bold
+          Container(
+            height: 70,
+            color: Colors.grey,
+            child: Row(
+              children: const[
+                SizedBox(
+                  width: 20,
                 ),
-              ),
-              SizedBox(
-                width: 200,
-              ),
-              Text(
-                "Valor", 
-                textAlign: TextAlign.right,
-                style: TextStyle(
-                  color: Colors.black,
-                  fontSize: 15,
-                  fontWeight: FontWeight.bold
+                Text(
+                  "Propiedad #", 
+                  textAlign: TextAlign.left,
+                  style: TextStyle(
+                    color: Colors.black,
+                    fontSize: 15,
+                    fontWeight: FontWeight.bold
+                  ),
                 ),
-              )
-            ],
+                SizedBox(
+                  width: 200,
+                ),
+                Text(
+                  "Valor", 
+                  textAlign: TextAlign.right,
+                  style: TextStyle(
+                    color: Colors.black,
+                    fontSize: 15,
+                    fontWeight: FontWeight.bold
+                  ),
+                )
+              ],
+            ),
           ), 
           const SizedBox(
-            height: 100,
+            height: 80,
           ),
           Row(
             children: [
+              const SizedBox(
+                width: 30,
+              ),
               ElevatedButton(
                           onPressed: (){
                             Navigator.push(
