@@ -91,8 +91,36 @@ class HomeView extends StatelessWidget{
                   fontWeight: FontWeight.bold
 
                 ),
-                ))
-        ],
+              )
+            ),
+            const SizedBox(
+              height: 100,
+            ),
+          Row(
+            children: [
+              ElevatedButton(
+                          onPressed: (){
+
+                          },
+                          style: ElevatedButton.styleFrom(
+                              backgroundColor: Colors.grey,
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(50)
+                              )
+                            ),
+                          child: const Text(
+                            "<",
+                            textAlign: TextAlign.center,
+                            style: TextStyle(
+                              color: Colors.black,
+                              fontSize: 15,
+                              fontWeight: FontWeight.bold
+                            ),
+                          )
+                        ),
+            ],
+          )
+                  ],
       )
     );
   }

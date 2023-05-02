@@ -30,7 +30,7 @@ class RetirarView extends StatelessWidget {
             child: TextFormField(
               decoration: const InputDecoration(),
               style: const TextStyle(
-                color: Colors.amber
+                color: Colors.black
               ),
             ),    
           ),
