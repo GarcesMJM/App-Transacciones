@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:intro_flutter/modelos/persona.dart';
 import 'package:intro_flutter/views/login_view.dart';
 import 'package:intro_flutter/views/retirar_view.dart';
+import 'package:intro_flutter/views/transferir_view.dart';
 
 import 'consultarb_view.dart';
 
@@ -30,7 +31,8 @@ class HomeView extends StatelessWidget{
           const SizedBox(height: 150),
            ElevatedButton(
             onPressed: (){
-              
+              Navigator.push(
+                context, MaterialPageRoute(builder: (_) => const TransferirView()));
             }, 
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.grey,
@@ -39,7 +41,7 @@ class HomeView extends StatelessWidget{
               )
             ),
             child: const Text(
-              'TRASNFERIR',
+              'TRANSFERIR',
               textAlign: TextAlign.center,
                 style: TextStyle(
                   color: Colors.black,

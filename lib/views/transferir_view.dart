@@ -15,7 +15,7 @@ class TransferirView extends StatelessWidget{
         children: [
           const Center(
             child: Text(
-              'Ingrese la cedula del destinatario',
+              'INGRESE LA CEDULA DEL DESTINATARIO',
               textAlign: TextAlign.left,
               style: TextStyle(
                 color: Colors.black,
@@ -35,7 +35,7 @@ class TransferirView extends StatelessWidget{
           ),
           const Center(
             child: Text(
-              'Ingrese el codigo del hogar a depositar',
+              'INGRESE EL CODIGO DEL HOGAR A DEPOSITAR',
               textAlign: TextAlign.left,
               style: TextStyle(
                 color: Colors.black,
