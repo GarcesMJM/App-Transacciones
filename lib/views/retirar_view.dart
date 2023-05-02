@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
 
+import 'home_view.dart';
+
 class RetirarView extends StatelessWidget {
   const RetirarView({super.key});
 
@@ -52,6 +54,30 @@ class RetirarView extends StatelessWidget {
 
               ),
             )
+          ),
+          Row(
+            children: [
+              ElevatedButton(
+                          onPressed: (){
+                            
+                          },
+                          style: ElevatedButton.styleFrom(
+                              backgroundColor: Colors.grey,
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(50)
+                              )
+                            ),
+                          child: const Text(
+                            "<",
+                            textAlign: TextAlign.center,
+                            style: TextStyle(
+                              color: Colors.black,
+                              fontSize: 15,
+                              fontWeight: FontWeight.bold
+                            ),
+                          )
+                        ),
+            ],
           )
         ],
       ),
