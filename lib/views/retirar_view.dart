@@ -25,6 +25,7 @@ class RetirarView extends StatelessWidget {
             ),
           ),
           SizedBox(
+            height: 100,
             width: 200,
             child: TextFormField(
               decoration: const InputDecoration(),
@@ -37,7 +38,7 @@ class RetirarView extends StatelessWidget {
             onPressed: (){
             },
             style: ElevatedButton.styleFrom(
-              backgroundColor: Colors.amber,
+              backgroundColor: Colors.grey,
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(50)
               )
