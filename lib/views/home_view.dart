@@ -12,23 +12,25 @@ class HomeView extends StatelessWidget{
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          const Center(
-            child: Text('Hola, "Nombre"',
+           Row(
+            children: const [
+              Text('Hola, "Nombre"',
             textAlign: TextAlign.left,
             style: TextStyle(
-              color: Color.fromRGBO(176,240,255,100), 
+              color: Colors.black, 
               fontSize: 25,
               fontWeight: FontWeight.bold
             ),
             ),
+            ],
           ),
-          const SizedBox(height: 100),
+          const SizedBox(height: 150),
            ElevatedButton(
             onPressed: (){
               
             }, 
             style: ElevatedButton.styleFrom(
-              backgroundColor: Colors.amber,
+              backgroundColor: Colors.grey,
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(50)
               )
@@ -39,16 +41,22 @@ class HomeView extends StatelessWidget{
                 style: TextStyle(
                   color: Colors.black,
                   fontSize: 15,
-                  fontWeight: FontWeight.normal
+                  fontWeight: FontWeight.bold
                 )
               )),
               const SizedBox(
-                height: 50,
+                height: 100,
               ),
             ElevatedButton(
               onPressed: (){
 
               },
+              style: ElevatedButton.styleFrom(
+              backgroundColor: Colors.grey,
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(50)
+              )
+            ),
                child: const Text(
                 'RETIRAR',
                 textAlign: TextAlign.center,
@@ -60,12 +68,18 @@ class HomeView extends StatelessWidget{
                 ),
                 )), 
                 const SizedBox(
-                  height: 50,
+                  height: 100,
                 ),
                 ElevatedButton(
                   onPressed: (){
 
                   },
+                  style: ElevatedButton.styleFrom(
+              backgroundColor: Colors.grey,
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(50)
+              )
+            ),
                    child: const Text(
                 'CONSULTAR BIENES',
                 textAlign: TextAlign.center,

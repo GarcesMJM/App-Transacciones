@@ -17,17 +17,6 @@ class LoginView extends StatelessWidget{
         children: [
           const Center(
             child: Text(
-              'Mi vista de inicio',
-              textAlign: TextAlign.center,
-              style: TextStyle(
-                color: Colors.white,
-                fontSize: 35,
-                fontWeight: FontWeight.bold
-              ),
-            ),
-          ),
-          const Center(
-            child: Text(
               'Usuario',
               textAlign: TextAlign.left,
               style: TextStyle(
