@@ -52,7 +52,28 @@ class TransferirView extends StatelessWidget{
                 color: Colors.amber
               ),
             ),
+          ),
+
+          ElevatedButton(
+            onPressed: () {
+            },
+            style: ElevatedButton.styleFrom(
+              backgroundColor: Colors.grey,
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(50)
+              )
+            ),
+            child: const Text(
+              'ACEPTAR',
+              style: TextStyle(
+                color: Colors.black,
+                fontSize: 20,
+                fontWeight: FontWeight.bold
+              ),
+            ),
           )
+
+
         ],
 
       )
