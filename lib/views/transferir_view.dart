@@ -71,9 +71,32 @@ class TransferirView extends StatelessWidget{
                 fontWeight: FontWeight.bold
               ),
             ),
+          ),
+          Row(
+            children: [
+              ElevatedButton(
+                onPressed: () {
+                  Navigator.push(
+                    context, MaterialPageRoute(builder: (_) => const HomeView()));
+                },
+              style: ElevatedButton.styleFrom(
+                backgroundColor: Colors.grey,
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(50)
+                )
+              ),
+              child: const Text(
+                '<',
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                  color: Colors.black,
+                  fontSize: 15,
+                  fontWeight: FontWeight.bold
+                ),
+              )
+              )
+            ]
           )
-
-
         ],
 
       )
