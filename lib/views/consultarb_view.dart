@@ -24,6 +24,109 @@ class ConsultarbView extends StatelessWidget {
               )
             ],
           ),
+          const SizedBox(
+            height: 70,
+          ),
+          Row(
+            children: const[
+              Text(
+                "Propiedad #", 
+                textAlign: TextAlign.left,
+                style: TextStyle(
+                  color: Colors.black,
+                  fontSize: 15,
+                  fontWeight: FontWeight.bold
+                ),
+              ),
+              Text(
+                "Valor", 
+                textAlign: TextAlign.right,
+                style: TextStyle(
+                  color: Colors.black,
+                  fontSize: 15,
+                  fontWeight: FontWeight.bold
+                ),
+              )
+            ],
+          ),
+          const SizedBox(
+            height: 70,
+          ),
+          Row(
+            children: const[
+              Text(
+                "Propiedad #", 
+                textAlign: TextAlign.left,
+                style: TextStyle(
+                  color: Colors.black,
+                  fontSize: 15,
+                  fontWeight: FontWeight.bold
+                ),
+              ),
+              Text(
+                "Valor", 
+                textAlign: TextAlign.right,
+                style: TextStyle(
+                  color: Colors.black,
+                  fontSize: 15,
+                  fontWeight: FontWeight.bold
+                ),
+              )
+            ],
+          ),
+          const SizedBox(
+            height: 70,
+          ),
+          Row(
+            children: const[
+              Text(
+                "Propiedad #", 
+                textAlign: TextAlign.left,
+                style: TextStyle(
+                  color: Colors.black,
+                  fontSize: 15,
+                  fontWeight: FontWeight.bold
+                ),
+              ),
+              Text(
+                "Valor", 
+                textAlign: TextAlign.right,
+                style: TextStyle(
+                  color: Colors.black,
+                  fontSize: 15,
+                  fontWeight: FontWeight.bold
+                ),
+              )
+            ],
+          ), 
+          const SizedBox(
+            height: 70,
+          ),
+          Row(
+            children: const[
+              Text(
+                "Propiedad #", 
+                textAlign: TextAlign.left,
+                style: TextStyle(
+                  color: Colors.black,
+                  fontSize: 15,
+                  fontWeight: FontWeight.bold
+                ),
+              ),
+              Text(
+                "Valor", 
+                textAlign: TextAlign.right,
+                style: TextStyle(
+                  color: Colors.black,
+                  fontSize: 15,
+                  fontWeight: FontWeight.bold
+                ),
+              )
+            ],
+          ),
+          const SizedBox(
+            height: 70,
+          ),
           Row(
             children: const[
               Text(

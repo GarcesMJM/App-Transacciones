@@ -3,6 +3,8 @@ import 'package:intro_flutter/modelos/persona.dart';
 import 'package:intro_flutter/views/login_view.dart';
 import 'package:intro_flutter/views/retirar_view.dart';
 
+import 'consultarb_view.dart';
+
 class HomeView extends StatelessWidget{
   const HomeView({super.key});
 
@@ -74,7 +76,8 @@ class HomeView extends StatelessWidget{
                 ),
                 ElevatedButton(
                   onPressed: (){
-                    
+                    Navigator.push(
+                              context, MaterialPageRoute(builder: (_) => const ConsultarbView()));
                   },
                   style: ElevatedButton.styleFrom(
               backgroundColor: Colors.grey,
