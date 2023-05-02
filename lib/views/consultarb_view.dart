@@ -11,9 +11,7 @@ class ConsultarbView extends StatelessWidget {
       backgroundColor: Colors.white,
       body: Column(
         children: [
-          Row(
-            children: const[
-              Text(
+          const Text(
                 "PROPIEDADES", 
                 textAlign: TextAlign.center,
                 style: TextStyle(
@@ -21,9 +19,7 @@ class ConsultarbView extends StatelessWidget {
                   fontSize: 20,
                   fontWeight: FontWeight.bold
                 ),
-              )
-            ],
-          ),
+              ),
           const SizedBox(
             height: 70,
           ),
@@ -37,6 +33,9 @@ class ConsultarbView extends StatelessWidget {
                   fontSize: 15,
                   fontWeight: FontWeight.bold
                 ),
+              ),
+              SizedBox(
+                width: 200,
               ),
               Text(
                 "Valor", 
@@ -63,6 +62,9 @@ class ConsultarbView extends StatelessWidget {
                   fontWeight: FontWeight.bold
                 ),
               ),
+              SizedBox(
+                width: 200,
+              ),
               Text(
                 "Valor", 
                 textAlign: TextAlign.right,
@@ -87,6 +89,9 @@ class ConsultarbView extends StatelessWidget {
                   fontSize: 15,
                   fontWeight: FontWeight.bold
                 ),
+              ),
+              SizedBox(
+                width: 200,
               ),
               Text(
                 "Valor", 
@@ -113,6 +118,9 @@ class ConsultarbView extends StatelessWidget {
                   fontWeight: FontWeight.bold
                 ),
               ),
+              SizedBox(
+                width: 200,
+              ),
               Text(
                 "Valor", 
                 textAlign: TextAlign.right,
@@ -137,6 +145,9 @@ class ConsultarbView extends StatelessWidget {
                   fontSize: 15,
                   fontWeight: FontWeight.bold
                 ),
+              ),
+              SizedBox(
+                width: 200,
               ),
               Text(
                 "Valor", 
