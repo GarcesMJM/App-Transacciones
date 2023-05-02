@@ -96,7 +96,7 @@ class HomeView extends StatelessWidget{
             const SizedBox(
               height: 100,
             ),
-          Row(
+            Row(
             children: [
               ElevatedButton(
                           onPressed: (){
@@ -120,7 +120,7 @@ class HomeView extends StatelessWidget{
                         ),
             ],
           )
-                  ],
+        ]
       )
     );
   }
