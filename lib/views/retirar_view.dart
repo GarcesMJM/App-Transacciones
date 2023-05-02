@@ -59,7 +59,8 @@ class RetirarView extends StatelessWidget {
             children: [
               ElevatedButton(
                           onPressed: (){
-                            
+                            Navigator.push(
+                              context, MaterialPageRoute(builder: (_) => const HomeView()));
                           },
                           style: ElevatedButton.styleFrom(
                               backgroundColor: Colors.grey,
