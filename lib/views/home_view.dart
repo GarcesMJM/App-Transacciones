@@ -100,7 +100,8 @@ class HomeView extends StatelessWidget{
             children: [
               ElevatedButton(
                           onPressed: (){
-
+                            Navigator.push(
+                              context, MaterialPageRoute(builder: (_) => const LoginView()));
                           },
                           style: ElevatedButton.styleFrom(
                               backgroundColor: Colors.grey,
