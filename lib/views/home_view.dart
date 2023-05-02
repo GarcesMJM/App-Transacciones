@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:intro_flutter/modelos/persona.dart';
 import 'package:intro_flutter/views/login_view.dart';
+import 'package:intro_flutter/views/retirar_view.dart';
 
 class HomeView extends StatelessWidget{
   const HomeView({super.key});
@@ -49,7 +50,8 @@ class HomeView extends StatelessWidget{
               ),
             ElevatedButton(
               onPressed: (){
-
+                Navigator.push(
+                      context, MaterialPageRoute(builder: (_) => const RetirarView()));
               },
               style: ElevatedButton.styleFrom(
               backgroundColor: Colors.grey,
@@ -63,7 +65,7 @@ class HomeView extends StatelessWidget{
                 style: TextStyle(
                   color: Colors.black,
                   fontSize: 15,
-                  fontWeight: FontWeight.normal
+                  fontWeight: FontWeight.bold
 
                 ),
                 )), 
@@ -72,7 +74,7 @@ class HomeView extends StatelessWidget{
                 ),
                 ElevatedButton(
                   onPressed: (){
-
+                    
                   },
                   style: ElevatedButton.styleFrom(
               backgroundColor: Colors.grey,
@@ -86,7 +88,7 @@ class HomeView extends StatelessWidget{
                 style: TextStyle(
                   color: Colors.black,
                   fontSize: 15,
-                  fontWeight: FontWeight.normal
+                  fontWeight: FontWeight.bold
 
                 ),
                 ))
